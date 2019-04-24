@@ -42,8 +42,6 @@
                 viewType =>
                 {
                     var viewName = viewType.Name;
-                    var viewAssemblyName = viewType.GetTypeInfo().Assembly.FullName;
-
                     var viewModelShortName = viewName;
                     if (viewModelShortName.EndsWith("View"))
                     {
