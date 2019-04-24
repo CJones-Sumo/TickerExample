@@ -45,11 +45,6 @@
                     var viewAssemblyName = viewType.GetTypeInfo().Assembly.FullName;
 
                     var viewModelShortName = viewName;
-                    if (viewModelShortName == null)
-                    {
-                        throw new Exception("ViewName is null");
-                    }
-
                     if (viewModelShortName.EndsWith("View"))
                     {
                         viewModelShortName += "Model";
