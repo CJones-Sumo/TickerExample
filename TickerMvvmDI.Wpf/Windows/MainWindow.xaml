@@ -1,0 +1,33 @@
+﻿<Window x:Class="TickerMvvmDI.Wpf.Windows.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TickerMvvmDI.Wpf"
+        xmlns:wpfShared="clr-namespace:Ticker.WpfShared;assembly=Ticker.WpfShared"
+        xmlns:notificationBar="clr-namespace:TickerMvvmDI.Wpf.Controls.NotificationBar"
+        xmlns:messagePanel="clr-namespace:TickerMvvmDI.Wpf.Controls.MessagePanel"
+        xmlns:windows="clr-namespace:TickerMvvmDI.Wpf.Windows"
+        xmlns:entryArea="clr-namespace:TickerMvvmDI.Wpf.Controls.EntryArea"
+        mc:Ignorable="d"
+        Title="{Binding WindowTitle}" Height="450" Width="800"
+        wpfShared:ViewModelLocator.AutoWireViewModel="True">
+    <d:UserControl.DataContext>
+        <windows:MainWindowViewModelDesigner />
+    </d:UserControl.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="20" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="150" />
+            </Grid.ColumnDefinitions>
+            <entryArea:EntryArea Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+            <messagePanel:MessagePanel Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+        </Grid>
+        <notificationBar:NotificationBar Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+    </Grid>
+</Window>

@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticker.Core", "Ticker.Core\Ticker.Core.csproj", "{EFB626B5-72A5-443C-9401-D954F1E6FC07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{BD8DFF72-E81A-462D-8F40-1E0886DEA836}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BasicMvvmDI", "BasicMvvmDI", "{6D2B2B0A-1223-4C56-8F5B-ED1A4D604F0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PluginViaDI", "PluginViaDI", "{A66D409C-B03E-4725-B472-7B9A42F49BAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TickerMvvmDI.Wpf", "TickerMvvmDI.Wpf\TickerMvvmDI.Wpf.csproj", "{EEB3C69A-A7B5-4B15-9984-69094534DC47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticker.WpfShared", "Ticker.WpfShared\Ticker.WpfShared.csproj", "{60FC3F4A-3160-463F-B3EB-2FCD3A5EC05C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticker.Shared", "Ticker.Shared\Ticker.Shared.csproj", "{3E6B160E-7D89-410D-B465-D65AD22F8B91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utility", "Utility", "{F263F9A9-A380-4828-8220-0B9A9E394739}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFB626B5-72A5-443C-9401-D954F1E6FC07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFB626B5-72A5-443C-9401-D954F1E6FC07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFB626B5-72A5-443C-9401-D954F1E6FC07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFB626B5-72A5-443C-9401-D954F1E6FC07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEB3C69A-A7B5-4B15-9984-69094534DC47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEB3C69A-A7B5-4B15-9984-69094534DC47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEB3C69A-A7B5-4B15-9984-69094534DC47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEB3C69A-A7B5-4B15-9984-69094534DC47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60FC3F4A-3160-463F-B3EB-2FCD3A5EC05C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60FC3F4A-3160-463F-B3EB-2FCD3A5EC05C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60FC3F4A-3160-463F-B3EB-2FCD3A5EC05C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60FC3F4A-3160-463F-B3EB-2FCD3A5EC05C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E6B160E-7D89-410D-B465-D65AD22F8B91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E6B160E-7D89-410D-B465-D65AD22F8B91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E6B160E-7D89-410D-B465-D65AD22F8B91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E6B160E-7D89-410D-B465-D65AD22F8B91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6D2B2B0A-1223-4C56-8F5B-ED1A4D604F0D} = {BD8DFF72-E81A-462D-8F40-1E0886DEA836}
+		{A66D409C-B03E-4725-B472-7B9A42F49BAE} = {BD8DFF72-E81A-462D-8F40-1E0886DEA836}
+		{EEB3C69A-A7B5-4B15-9984-69094534DC47} = {6D2B2B0A-1223-4C56-8F5B-ED1A4D604F0D}
+		{60FC3F4A-3160-463F-B3EB-2FCD3A5EC05C} = {F263F9A9-A380-4828-8220-0B9A9E394739}
+		{3E6B160E-7D89-410D-B465-D65AD22F8B91} = {F263F9A9-A380-4828-8220-0B9A9E394739}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD980AA5-FE45-4AE6-8D9C-36AD5AD63A86}
+	EndGlobalSection
+EndGlobal
