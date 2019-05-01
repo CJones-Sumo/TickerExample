@@ -12,10 +12,13 @@ The core functionality for the Ticker application. This is platform-independent 
 
 Sample WPF application which interacts with Ticker.Core
 
-#### Ticker.Shared
+
+### Not Relevant 
+
+###### Ticker.Shared
 
 Small utility library with platform-independent helper classes. In a real example this would be moved out of the application into a shared code framework.
 
-#### Ticker.WpfShared
+###### Ticker.WpfShared
 
 Small utility library with WPF-specific helper classses, much of which is stripped from [Prism](https://github.com/PrismLibrary/Prism). Like Ticker.Shared, this would be moved into a shared code library separate from the project.
