@@ -15,6 +15,8 @@ Sample WPF application which interacts with Ticker.Core
 
 ### Not Relevant 
 
+These libraries are just small utilities. They'd typically be in a shared library which is separate from the project.
+
 ###### Ticker.Shared
 
 Small utility library with platform-independent helper classes. In a real example this would be moved out of the application into a shared code framework.
